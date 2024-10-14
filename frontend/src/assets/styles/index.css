@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  /* font-family: 'Poppins', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* background: #6b4afa; */
+  /* background: #025091;
+  background: linear-gradient(90deg, #025091 0%, #0f172a 100%); */
+}
+

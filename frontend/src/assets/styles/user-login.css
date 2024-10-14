@@ -1,0 +1,132 @@
+
+
+.form-container2{
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(5px);  
+    border-radius: 1rem;
+    width: 40rem;
+    color: black;
+    border-radius: 1rem 0 0 1rem ;
+
+}
+
+
+.heading{
+  
+    height: 3px;
+    width: 45px;
+    border-radius: 4px;
+    background: black;
+}
+
+.main-container{
+    /* border: 2px solid yellow; */
+    width: 85rem;
+    height: max-content;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    border-radius: 1rem 0 0 1rem ;
+
+  
+  }
+
+  .side_img2{
+    position: relative;
+    z-index: 100;
+    width: 30rem;
+    /* height: 42rem; */
+    border-left: 2px solid white;
+    /* background-color: rgba(0, 0, 0, 0.582); */
+    background: url(../imgs/l1.jpg);
+    background-size: cover;      
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    /* border: 2px solid red; */
+}
+
+
+.side_img2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius:0 ;
+    z-index: -1;
+}
+
+
+.side_quote2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+    color: white;
+    padding: 1rem;
+}
+
+
+
+/* ////////////////////////////////////////////////// User Login */
+
+
+
+.main-container2{
+    display: flex;
+    background:url(../imgs/fam3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    border-radius: 1rem 0 0 1rem ;
+    color: white;
+    /* border: 2px solid yellow; */
+    width:55rem;
+    height: max-content;
+}
+
+  .side_img{
+    position: relative;
+    z-index: 100;
+    width: 25rem;
+    /* height: 42rem; */
+    border-left: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.582);
+    /* border: 2px solid red; */
+}
+
+
+
+
+.side_quote{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+    color: white;
+    padding: 1rem;
+}
+
+.form-container3{
+    background: rgba(0, 0, 0, 0.7);
+    /* backdrop-filter: blur(3px);   */
+    border-radius: 1rem 0 0 1rem ;
+    width: 35rem;
+    height: 42rem;
+    color: white;
+}
+
+.side_para{
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+}
+
